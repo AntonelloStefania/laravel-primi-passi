@@ -22,9 +22,8 @@
                     <div class="col-12 d-flex justify-content-center my-5">
                         <h1>{{$title}}</h1>
                     </div>
-                   
                     <div class="col-8 offset-2 d-flex justify-content-between">
-                        <div class="align-self-center ms-5">
+                        <div class="align-self-center me-5">
                             <button type="submit" class="btn btn-danger mb-2"><a href="/not-hello">Non ricambiare</a></button>
                         </div>
                         <img class="w-50" src="{{asset($earth_img)}}" alt="">
