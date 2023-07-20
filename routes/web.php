@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    
+    $data=[
+        'title' => 'Hello World',
+        // 'earth_img' => './public/earth-globe.svg',
+    ];
+
+    return view('home', $data); 
+
 });
