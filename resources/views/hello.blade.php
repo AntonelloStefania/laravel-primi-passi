@@ -15,23 +15,16 @@
 
       
     </head>
-    <body class="home-body">
+    <body class="hello-body">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
-                    <div class="col-12 d-flex justify-content-center my-5">
-                        <h1>{{$title}}</h1>
+                <div class="col-8">
+                    <div class="col-auto d-flex justify-content-center text-container" style="background-image: url('{{ asset($background_callout) }}');">
+                        <h2 class="align-self-center pb-5">{{$text}}</h2>
                     </div>
-                   
-                    <div class="col-8 offset-2 d-flex justify-content-between">
-                        <div class="align-self-center ms-5">
-                            <button type="submit" class="btn btn-danger mb-2"><a href="/not-hello">Non ricambiare</a></button>
-                        </div>
-                        <img class="w-50" src="{{asset($earth_img)}}" alt="">
-                        <div class="align-self-center ms-5">
-                            <button type="submit" class="btn btn-success mb-2"><a href="/hello">Ricambia saluto</a></button>
-                        </div>
-                    </div>  
+                    <div class="col-8 offset-4 d-flex justify-content-end penguin-img-container">
+                        <img class="w-50" src="{{asset($penguin_hi)}}" alt="" >
+                    </div>
                 </div>
             </div>
         </div>
