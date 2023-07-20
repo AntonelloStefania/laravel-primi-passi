@@ -11,8 +11,36 @@
 
         <!-- Styles -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-       <link rel="stylesheet" href="{{asset('style.css')}}">
+        <style>
+            .not-hello-body {
+                background-color: #a2a2ff;
+                padding-top: 5rem;
 
+            }
+
+            .penguin-back-container {
+                width: 400px;
+                margin-left: 25rem;
+            }
+
+            .penguin-farewell-container {
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 20rem;
+                height: 17rem;
+                margin-left: 35rem;
+            }
+
+            .earth-container {
+                min-width: 900px;
+            }
+
+            .back{
+                position: absolute;
+                top: 3rem;
+                right: 3rem;
+            }
+        </style>
       
     </head>
     <body class="not-hello-body">
@@ -29,6 +57,9 @@
                         <img class="w-50" src="{{asset($earth_img)}}" alt="" >
                     </div>
                 </div>
+            </div>
+            <div class="back">
+                <a href="/"><button type="submit" class="btn btn-danger mb-2 fw-bold text-white">Home</button></a>
             </div>
         </div>
     </body>
