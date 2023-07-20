@@ -36,7 +36,9 @@ Route::get('/hello', function(){
 Route::get('/not-hello', function(){
     $data=[
         'penguin_back' => 'back-penguin.svg',
-        'earth_img' => 'earth-globe.svg'
+        'earth_img' => 'earth-globe.svg',
+        'left_callout' => 'left-callout.svg',
+        'text' => 'Not today world!!'
     ];
 
     return view('not-hello', $data);

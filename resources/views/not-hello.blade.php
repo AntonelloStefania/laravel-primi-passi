@@ -15,15 +15,18 @@
 
       
     </head>
-    <body class="hello-body">
+    <body class="not-hello-body">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-8">
-                    <div class="col-auto d-flex justify-content-center text-container" style="background-image: url('{{ asset($background_callout) }}');">
-                        <h2 class="align-self-center pb-5">{{$text}}</h2>
+                <div class="col-12">
+                    <div class=" d-flex justify-content-center align-items-center penguin-farewell-container" style="background-image: url('{{ asset($left_callout) }}');">
+                        <h4 class="pb-4">{{$text}}</h4>
                     </div>
-                    <div class="col-8 offset-4 d-flex justify-content-end penguin-img-container">
-                        <img class="w-50" src="{{asset($penguin_hi)}}" alt="" >
+                    <div class=" d-flex justify-content-start penguin-back-container">
+                        <img class="w-50" src="{{asset($penguin_back)}}" alt="" >
+                    </div>
+                    <div class="d-flex justify-content-end earth-container">
+                        <img class="w-50" src="{{asset($earth_img)}}" alt="" >
                     </div>
                 </div>
             </div>

@@ -39,3 +39,27 @@ a {
     background-size: cover;
     margin-left: 25rem;
 }
+
+/* not-hello */
+.not-hello-body {
+    background-color: #a2a2ff;
+    padding-top: 5rem;
+
+}
+
+.penguin-back-container {
+    width: 400px;
+    margin-left: 25rem;
+}
+
+.penguin-farewell-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20rem;
+    height: 17rem;
+    margin-left: 35rem;
+}
+
+.earth-container {
+    min-width: 900px;
+}
