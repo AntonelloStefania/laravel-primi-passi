@@ -18,11 +18,13 @@
     <body>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 d-flex justify-content-center">
-                    <h1>{{$title}}</h1>
-                    <!-- <div class="col-8 offset-2">
-                        <img src="{{earth_img}}" alt="">
-                    </div>   -->
+                <div class="col-12">
+                    <div class="col-12 d-flex justify-content-center my-5">
+                        <h1>{{$title}}</h1>
+                    </div>
+                    <div class="col-8 offset-2 d-flex justify-content-center">
+                        <img class="w-50" src="{{asset($earth_img)}}" alt="">
+                    </div>  
                 </div>
             </div>
         </div>

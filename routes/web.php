@@ -17,7 +17,7 @@ Route::get('/', function () {
     
     $data=[
         'title' => 'Hello World',
-        // 'earth_img' => './public/earth-globe.svg',
+         'earth_img' => 'earth-globe.svg',
     ];
 
     return view('home', $data); 
